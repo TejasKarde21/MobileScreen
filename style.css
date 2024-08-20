@@ -1,0 +1,140 @@
+.logo{
+     display: flex;
+  
+}
+
+.circle{
+    border-radius:50% ;
+    width: 50px;
+    height: 50px;
+    background: rgb(203, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+.logoSty{
+      display: flex;
+      align-items: center;
+    
+}
+
+.list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rounded{
+     padding: 8px;
+     
+     background: rgb(203, 203, 203,0.2);
+   
+}
+
+.noti{
+     background-color: white;
+     border-radius: 50%;
+     padding: 5px;
+}
+
+
+.list1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button1{
+     background-color: pink;
+     border-radius: 40px;
+     color: white;
+}
+
+.button1_2{
+    background-color: rgb(17, 188, 255);
+    border-radius: 40px;
+     color: white;
+}
+
+.button1_3{
+    background-color: rgb(255, 111, 0);
+    border-radius: 40px;
+     color: white;
+}
+
+.button2{
+    background-color: rgb(207, 207, 207,0.4);
+    border-radius: 40px;
+    color: gray;
+}
+
+.card-flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.cardContent{
+    position: relative;
+   
+}
+
+.circle1{
+     position: absolute;
+     right:0;
+     background: orangered;
+     z-index: 2;
+
+}
+
+.circle2{
+    position: absolute;
+    right: 20px;
+    background-color: rgb(192, 242, 28);
+    z-index: 1;
+
+}
+
+.circle3{
+    position: absolute;
+    right: 50px;
+    background-color: rgb(195, 255, 255);
+}
+
+.inner_circle{
+     background: transparent;
+     padding: 10px 15px;
+     border-radius: 50%;
+}
+
+.blue_card{
+     background: rgb(39, 179, 255);
+     padding: 10px;
+     box-shadow: 3px 4px 7px gray;
+}
+
+.pink_card{
+    background: rgb(255, 122, 213);
+    padding: 10px;
+    box-shadow: 3px 4px 7px gray;
+}
+
+.orange_card{
+    background-color: rgb(237, 204, 143);
+    padding: 10px;
+    box-shadow: 3px 4px 7px gray;
+}
+
+.top_class{
+    margin-top: 30px;
+}
+
+.notifi_postion{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(214, 214, 214,0.2);
+    position: relative;
+}

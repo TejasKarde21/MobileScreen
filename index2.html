@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+   <div class="container">
+<div class="container-fluid">
+     <div style="display: flex; justify-content: space-between;">
+        <div class="circle"><i class="fa-solid fa-arrow-left"></i></div>
+        <div><h1>Create Task</h1></div>
+       <div></div>
+    </div>
+</div>
+
+<div class="container-fluid">
+  
+    <h4 style="margin-top: 50px;">Project Title</h4>
+    <input type="text" placeholder="Enter Task title" style="border: none; background-color: rgb(191, 191, 191,0.2);  border-radius: 20px; width: 80vw; padding:10px 10px;">
+
+    <h4 style="margin-top: 50px;">Description</h4>
+    <input type="text" placeholder="Enter Task title" style="border: none; background-color: rgb(191, 191, 191,0.2);  border-radius: 20px; width: 80vw; padding:10px 10px;">
+
+    <h4 style="margin-top: 50px;">Start Date</h4>
+    <input type="text" placeholder="Enter Task title" style="border: none; background-color: rgb(191, 191, 191,0.2);  border-radius: 20px; width: 80vw; padding:10px 10px;">
+
+   
+    <div class="container-fluid">
+        <h4 style="margin-top: 50px;">Priority</h4>
+        <ul style="display: flex; margin-top: 40px; justify-content: space-between; align-items: center;">
+            <div>Priority</div>
+            <li class="priority-option" data-priority="Medium">Medium</li>
+            <li class="priority-option" data-priority="High">High</li>
+            <li class="priority-option" data-priority="Low">Low</li>
+        </ul>
+    </div>
+
+    <div style="display: flex; margin-top: 40px; justify-content: space-between; align-items: center;">
+        <div>Assigned for</div>
+        <div style="background-color: rgb(251, 101, 126); border-radius: 20px; padding:10px;"><i class="fa-regular fa-user"></i>Michel</div>
+        <div style="background-color: rgb(230, 218, 220); border-radius: 20px; padding:10px 20px;">+</div>
+       
+   </div>
+
+
+   <div style="margin-top: 20px;">  
+     <h4>Upload File</h4>
+      <div style="border-radius:20px; width: 100%; height:150px ; border: 2px dotted gray; display: flex; justify-content: center; align-items: center;">
+          <i>upload</i>
+      </div>
+   </div>
+
+
+    <div >
+           <button type="submit" style="margin-top: 30px; background-color: black; padding: 10px; width: 100%; color: white; border-radius: 30px;">+ create Task</button>
+    </div>
+
+
+     
+</div>
+   
+     
+     
+
+   </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
